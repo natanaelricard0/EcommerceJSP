@@ -40,7 +40,7 @@
         </td>
         <td>
             <form>
-                <a href="incluir?nome=PRODUTO 0001&valor=1">
+                <a href="incluir?nome=Introducao a Linguagem SQL&valor=1">
                     <input type="button" value="ADICIONAR AO CARRINHO">
                 </a>
             </form>
