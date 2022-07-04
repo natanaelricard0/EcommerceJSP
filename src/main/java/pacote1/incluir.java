@@ -33,7 +33,7 @@ public class incluir extends HttpServlet {
             session.setAttribute("carrinho",carrinho);
         }
         //Adiciona o produto no vetor (carrinho de compras)
-        String nome = request.getParameter("nome:");
+        String nome = request.getParameter("nome");
         double preco = Double.parseDouble(request.getParameter("valor"));
         //Utiliza a class produto para adicionar ao carrinho uma compra
         Produto p = new Produto(nome, preco);
