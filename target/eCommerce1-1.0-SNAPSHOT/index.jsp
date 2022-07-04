@@ -17,6 +17,9 @@
         <td>
             <a>COMPRAR</a>
         </td>
+        <td>
+            <a>DESCRIÇÃO</a>
+        </td>
     </tr>
     <!-- Repetindo a tr para lista de produtos -->
     <tr>
@@ -27,7 +30,7 @@
         </td>
         <td>
             <a>
-                PRODUTO 0001
+                Introdução a linguagem SQL
             </a>
         </td>
         <td style="text-align: left">
@@ -36,7 +39,20 @@
             </a>
         </td>
         <td>
-            <a href="incluir?nome=PRODUTO 0001&valor=1">COMPRAR</a>
+            <form>
+                <a href="incluir?nome=PRODUTO 0001&valor=1">
+                    <input type="button" value="ADICIONAR AO CARRINHO">
+                </a>
+            </form>
+            <!--<a href="incluir?nome=PRODUTO 0001&valor=1">ADICIONAR AO CARRINHO</a>-->
+        </td>
+         <td>
+            <form>
+                <a href="introducao-a-linguagem-sql.jsp">
+                    <input type="button" value="DETALHES">
+                </a>
+            </form>
+            <!--<a href="incluir?nome=PRODUTO 0001&valor=1">ADICIONAR AO CARRINHO</a>-->
         </td>
     </tr>
     <!-- repetir a tr para a lista de produtos -->
